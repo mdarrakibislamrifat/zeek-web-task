@@ -1,5 +1,5 @@
 import PillButton from "@/components/PillButton";
-import robotMascot from "@/assets/robot-mascot.jpg";
+import robotMascot from "@/assets/robot-mascot.png";
 import tabletChat from "@/assets/tablet-chat.jpg";
 import analyticsDash from "@/assets/analytics-dash.jpg";
 
@@ -18,7 +18,7 @@ const FeatureGrid = () => (
         <p className="mt-2 text-sm text-dark-muted">
           Together explore limitless new possibilities with our intelligent solutions.
         </p>
-        <img src={robotMascot} alt="AI robot mascot" loading="lazy" width={768} height={768} className="mx-auto mt-4 w-56" />
+        <img src={robotMascot} alt="AI robot mascot" loading="lazy" width={768} height={768} className="mx-auto mt-4 w-full h-auto rounded-xl" />
       </div>
       <div className="rounded-[1.75rem] bg-gradient-purple-card p-6 text-dark-foreground md:col-span-5">
         <h3 className="text-lg font-semibold">We Work And Integrate With This Services</h3>

@@ -47,7 +47,28 @@ const Capabilities = () => (
               <div className="text-sm text-dark-foreground/70">UI Designer</div>
             </div>
           </div>
+          <div className="mt-8 grid grid-cols-2 gap-4 border-t border-white/10 pt-8">
+            <div>
+              <div className="text-2xl font-bold">99%</div>
+              <div className="text-xs text-white/60">Success Rate</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold">24/7</div>
+              <div className="text-xs text-white/60">Live Support</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold">10k+</div>
+              <div className="text-xs text-white/60">Active Users</div>
+            </div>
+            <div>
+              <div className="text-2xl font-bold">50+</div>
+              <div className="text-xs text-white/60">Integrations</div>
+            </div>
+          </div>
         </div>
+
+        
+
         <div className="rounded-[2rem] bg-gradient-dark-card p-8 text-dark-foreground">
           <div className="text-sm text-dark-muted">Trusted by leading brands</div>
           <div className="mt-4 flex items-center justify-around text-xl font-bold opacity-80">
